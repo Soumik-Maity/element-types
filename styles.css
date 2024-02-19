@@ -1,0 +1,53 @@
+/* Universal Selector */
+* {
+  box-sizing: border-box;
+}
+/* Element Type Selector */
+h1 {
+  text-align: center;
+}
+/* Element Type Selector */
+body {
+  background-color: #f5f5f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Descendant Selector */
+.section h2 {
+  color: #333;
+}
+
+/* Class Selector */
+.intro {
+  font-style: italic;
+}
+
+/* Id Selector */
+#about {
+  max-width: 800px;
+  min-height: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgb(11, 11, 11);
+  margin-top: 20px;
+}
+
+/* Class Selector */
+.hobbies {
+  padding-left: 20px;
+}
+
+/* Id Selector */
+#contact {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #4caf50;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
